@@ -272,3 +272,102 @@
 .explore-button:hover{
     background-color: rgba(255, 255, 255, 0.837);
 }
+
+
+/* DEALS SECTION */
+
+.deals-1{
+    display:flex;
+    justify-content:center;
+}
+
+.deal-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-repeat:no-repeat;
+    color:white;
+    margin:50px 20px 0px;
+    padding-left:50px;
+    background-position:cover;
+    width:100%;
+    max-width:500px;
+    height:400px;
+}
+
+.deal-card:nth-child(1){
+    background-image:url('/Assets/images/banner/b17.jpg');
+}
+
+.deal-card:nth-child(2){
+    background-image:url('/Assets/images/banner/b10.jpg');
+}
+
+.deal-card h2{
+    font-weight:200;
+    font-size:25px;
+}
+
+.deal-card h1{
+    font-weight:800;
+}
+
+.deal-card h4{
+    color:white;
+    font-weight:800;
+    margin:10px 0px;
+}
+
+.deals-button{
+    transition:.3s ease-in-out;
+    width:120px;
+    height:40px;
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    font-weight:800;
+    cursor:pointer;
+}
+
+.deal-card:hover .deals-button{
+    background-color: #429E9B;
+    border:1px solid #429E9B;
+}
+
+.offer-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-repeat:no-repeat;
+    color:white;
+    margin:20px 20px 0px;
+    padding-left:50px;
+    background-position:cover;
+    height:200px;
+}
+
+.offer-card:nth-child(1){
+    background-image:url('/Assets/images/banner/b7.jpg');
+    background-size:cover;
+    width:270px;
+}
+
+.offer-card:nth-child(2){
+    background-image:url('/Assets/images/banner/b4.jpg');
+    background-size: cover;
+    width:350px;
+}
+
+.offer-card:nth-child(3){
+    background-image:url('/Assets/images/banner/b18.jpg');
+    background-size: cover;
+    width:270px;;
+}
+
+.offer-card h1{
+    font-weight:900;   
+}
+
+.offer-card h4{
+    color:#ff5a5f;
+}
