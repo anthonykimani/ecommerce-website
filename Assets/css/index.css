@@ -371,3 +371,52 @@
 .offer-card h4{
     color:#ff5a5f;
 }
+
+/* NEWSLETTER SECTION */
+
+.newsletter-container{
+    background-image:url('/Assets/images/banner/b2.jpg');
+    display:flex;
+    justify-content:space-around;
+    height:200px;
+    margin:50px 0px 0px;
+    align-items: center;
+}
+
+.newsletter-text{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    height:70px;
+}
+
+.newsletter-text h1{
+    color:white;
+    font-weight:800;
+}
+
+.newsletter-text h4{
+    color:#48525B;
+}
+
+.newsletter-text h4 span{
+    color:goldenrod
+}
+
+.email{
+    width:400px;
+    height:40px;
+    border-radius:3px 0px 0px 3px;
+    border:none;
+    padding:0px 10px;
+    outline:none;
+}
+
+.sign-up-button{
+    width:100px;
+    height:40px;
+    background-color: #429E9B;
+    color:white;
+    border:none;
+    font-weight:800;
+}
