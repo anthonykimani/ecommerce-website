@@ -43,6 +43,10 @@
     
 }
 
+.navigation-container i{
+    display:none;
+}
+
 /* HOME CONTAINER */
 .home-container{
     background-image: url("../images/hero4.png");
@@ -493,4 +497,163 @@
 footer{
     margin:30px 0px 0px;
     text-align:center;
+}
+
+
+/* MEDIA QUERIES */
+
+
+
+/* 1024px */
+
+@media(max-width:966px){
+    html{
+        max-width:966px;
+        width:100%;
+    }
+
+    body{
+        max-width:966px;
+        width:100%;
+    }
+
+    .deals-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .deal-card:nth-child(1){
+        width:900px;
+        max-width:90%;
+        background-size:cover;
+    }
+    
+    .deal-card:nth-child(2){
+        width:900px;
+        max-width:90%;
+        background-size:cover;
+    }
+
+    .offer-card{
+        width:100%;
+    }
+
+    .offer-card:nth-child(1){
+        width:900px;
+        max-width:90%;
+        background-size:cover;
+    }
+    
+    .offer-card:nth-child(2){
+        width:900px;
+        max-width:90%;
+        background-size:cover;
+    }
+    
+    .offer-card:nth-child(3){
+        width:900px;
+        max-width:90%;
+        background-size:cover;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .footer-container {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap:50px;
+        padding:50px;
+    }
+}
+
+@media(max-width:768px){
+    .navigation-container nav{
+        display:none;
+    }
+    
+    .navigation-container i{
+        display:flex;
+        align-items: center;
+        padding:20px;
+    }
+    .home-container{
+        background-position:90%;
+        justify-content:flex-end;
+    }
+}
+
+@media(max-width:600px){
+    .deal-card:nth-child(1){
+        width:500px;
+        max-width:80%;
+        background-position:100%;
+        background-size:cover;
+    }
+    .deal-card:nth-child(2){
+        width:500px;
+        max-width:80%;
+        background-position:100%;
+        background-size:cover;
+    }
+    .offer-card:nth-child(1){
+        width:500px;
+        max-width:80%;
+        background-position:100%;
+        background-size:cover;
+    }
+    .offer-card:nth-child(2){
+        width:500px;
+        max-width:80%;
+        background-position:100%;
+        background-size:cover;
+    }
+    .offer-card:nth-child(3){
+        width:500px;
+        max-width:80%;
+        background-position:100%;
+        background-size:cover;
+    }
+}
+
+@media(max-width:530px){
+    .newsletter-form{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+    }
+
+    .email{
+        max-width:380px;
+        width:100%;
+    }
+    .sign-up-button{
+        max-width:420px;
+        width:100%;
+    }
+}
+
+@media(max-width:450px){
+    .footer-container {
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:350px){
+    .cart-button{
+        width:50px;
+        position:relative;
+        left:150px;
+        z-index:50;
+        background-color: #cbf3f0;
+        color:#429E9B;
+        border:none;
+        outline:none;
+        height:50px;
+        border-radius:50%;
+        transition:.3s ease-in-out;
+    }
 }
