@@ -3,13 +3,13 @@ const newArrivalProductSection = document.querySelector('.product-card-container
 
 
 const fetchFeaturedProducts = ()=>{
-    fetch('http://localhost:3000/featured-products')
+    fetch('https://raw.githubusercontent.com/anthonykimani/ecommerce-website/functionality/db.json')
     .then(response=>response.json())
     .then(data=>createFeaturedProducts(data))
 }
 
 const fetchNewArrivalProducts = ()=>{
-    fetch('http://localhost:3000/new-arrivals')
+    fetch('https://raw.githubusercontent.com/anthonykimani/ecommerce-website/functionality/db.json')
     .then(response=>response.json())
     .then(data=>createNewArrivalProducts(data))
 }
@@ -17,8 +17,8 @@ const fetchNewArrivalProducts = ()=>{
 
 
 
-const createFeaturedProducts = (array)=>{
-   array.forEach(element=>{
+const createFeaturedProducts = (object)=>{
+   object.featuredProducts.forEach(element=>{
     const productItem = document.createElement('div');
     productItem.setAttribute('class','product-card')
     productItem.innerHTML = `<img src="${element.image}">
@@ -39,8 +39,8 @@ const createFeaturedProducts = (array)=>{
 }
 
 
-const createNewArrivalProducts = (array)=>{
-    array.forEach(element=>{
+const createNewArrivalProducts = (object)=>{
+    object.newArrivals.forEach(element=>{
      const productItem = document.createElement('div');
      productItem.setAttribute('class','product-card')
      productItem.innerHTML = `<img src="${element.image}">
