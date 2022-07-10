@@ -1,5 +1,5 @@
 {
-    "featured-products":[
+    "featuredProducts":[
         {   "id":0,
             "image":"./Assets/images/products/f1.jpg",
             "brand":"Addidas",
@@ -56,7 +56,7 @@
             "price":78
         }
     ],
-    "new-arrivals":[
+    "newArrivals":[
         {   
             "id":8,
             "image":"./Assets/images/products/n1.jpg",
