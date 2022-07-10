@@ -1,5 +1,5 @@
 {
-    "items":[
+    "featured-products":[
         {   "id":0,
             "image":"./Assets/images/products/f1.jpg",
             "brand":"Addidas",
@@ -8,84 +8,107 @@
         },
         {   
             "id":1,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f2.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":2,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f3.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":3,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f4.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":4,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f5.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":5,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f6.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":6,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f7.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":7,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/f8.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
-        },
+        }
+    ],
+    "new-arrivals":[
         {   
             "id":8,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/n1.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":9,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/n2.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":10,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/n3.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":11,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/n4.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78
         },
         {   
             "id":12,
-            "image":"./Assets/images/products/f1.jpg",
+            "image":"./Assets/images/products/n5.jpg",
+            "brand":"Addidas",
+            "type":"Cartoon Astronaut Shirts",
+            "price":78
+        },
+        {   
+            "id":13,
+            "image":"./Assets/images/products/n6.jpg",
+            "brand":"Addidas",
+            "type":"Cartoon Astronaut Shirts",
+            "price":78
+        },
+        {   
+            "id":14,
+            "image":"./Assets/images/products/n7.jpg",
+            "brand":"Addidas",
+            "type":"Cartoon Astronaut Shirts",
+            "price":78
+        },
+        {   
+            "id":15,
+            "image":"./Assets/images/products/n8.jpg",
             "brand":"Addidas",
             "type":"Cartoon Astronaut Shirts",
             "price":78

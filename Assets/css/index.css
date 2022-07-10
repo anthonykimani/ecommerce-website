@@ -163,7 +163,14 @@
     font-size:18px;
     margin:10px 0px;
 }
-.product-card-container{
+
+.product-card-container-1{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.product-card-container-2{
     display:flex;
     justify-content:space-around;
     flex-wrap: wrap;
